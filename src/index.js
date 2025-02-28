@@ -1,5 +1,6 @@
 const express = require('express')
 const cors = require('cors');
+const testConnect = require('./db/testeConnect')
 
 class AppController {
     constructor() {
